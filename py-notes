@@ -1,0 +1,31 @@
+Python Notes
+
+Rule: There is NO () {} in Python syntax
+Tip 1: Floor Division: Double Slash //
+Tip 2: Num raised to n power: **
+Tip 3: Escape ‘ ‘ Error : Backwards Slash \ Before Punctuation
+Tip 4: You can do something like this: '.'.join(w[0] for w in name.split()).upper() (Focus on The Syntax)
+Tip 5: Just like in JS, iterate through elements in array using | for ‘ ‘ in ‘ ‘ |
+
+
+Arrays:
+.append | adds to end of list |
+.remove | removes |
+.index | finds index of element |
+Enumerate gets the key and index of element
+Set Multi-Variables using array elements: 
+first, last = name.upper().split(' ')
+Change Index in array One-Line: [element for element in array]
+	Grabs element using | for element in array |
+	Example:  [element*2 for element in array]
+ # returns elements multiplied by 2
+
+
+Dictionaries:
+Add key val pair: dict["key"] = "val" # output: {‘key’: ‘val’}
+Like in other languages, access a value by using its key
+
+
+Sets:
+.add | adds value |
+.remove | removes |
